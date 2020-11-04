@@ -11,6 +11,7 @@ you use a stack to store and access numbers in that order.
 
 For example, if you had a list [3, 4, 10, +, 6, *, -],
 The code would read it like:
+~~~
 [3]
 [3, 4]
 [3, 4, 10]
@@ -18,7 +19,7 @@ The code would read it like:
 [3, 14, 6]
 [3, 14 * 6] = [3, 84]
 [3 - 84] = [-81]
-
+~~~
 The operator would only be applied when it's encountered in the list to the last two numbers in the list, or rather the top two numbers on the Stack.
 
 #### 3. Describe your process of how you worked on this lab. Include details such as who you worked with, what methods you tried, what worked or didn’t work, what could have gone better, and what you learned during this lab. Feel free to attach images, screenshots, pseudocode, etc to elaborate on your response!
